@@ -3,20 +3,25 @@ package Models;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public class LoginModels {
+public class customertModels {
 	private String _Id;
 	private String userName;
 	private String passWord;
-	private String grant;
 	private int state;
 	private String email;
 	private String phone;
 	private LocalDateTime createAt;
 	private LocalDateTime updateAt;
+	private String brachName;
 	private LocalDate ngaySinh;
+	private String IDmadonhang;
 	private String gioiTinh;
-	private String diaChi;
+	private String avatar;
+	private String STK;
+	private String idCart;
+	private String cmnd;
 	
+	private String diaChi;
 	public String get_Id() {
 		return _Id;
 	}
@@ -34,12 +39,6 @@ public class LoginModels {
 	}
 	public void setPassWord(String passWord) {
 		this.passWord = passWord;
-	}
-	public String getGrant() {
-		return grant;
-	}
-	public void setGrant(String grant) {
-		this.grant = grant;
 	}
 	public int getState() {
 		return state;
@@ -71,17 +70,53 @@ public class LoginModels {
 	public void setUpdateAt(LocalDateTime updateAt) {
 		this.updateAt = updateAt;
 	}
+	public String getBrachName() {
+		return brachName;
+	}
+	public void setBrachName(String brachName) {
+		this.brachName = brachName;
+	}
 	public LocalDate getNgaySinh() {
 		return ngaySinh;
 	}
 	public void setNgaySinh(LocalDate ngaySinh) {
 		this.ngaySinh = ngaySinh;
 	}
+	public String getIDmadonhang() {
+		return IDmadonhang;
+	}
+	public void setIDmadonhang(String iDmadonhang) {
+		IDmadonhang = iDmadonhang;
+	}
 	public String getGioiTinh() {
 		return gioiTinh;
 	}
 	public void setGioiTinh(String gioiTinh) {
 		this.gioiTinh = gioiTinh;
+	}
+	public String getAvatar() {
+		return avatar;
+	}
+	public void setAvatar(String avatar) {
+		this.avatar = avatar;
+	}
+	public String getSTK() {
+		return STK;
+	}
+	public void setSTK(String sTK) {
+		STK = sTK;
+	}
+	public String getIdCart() {
+		return idCart;
+	}
+	public void setIdCart(String idCart) {
+		this.idCart = idCart;
+	}
+	public String getCmnd() {
+		return cmnd;
+	}
+	public void setCmnd(String cmnd) {
+		this.cmnd = cmnd;
 	}
 	public String getDiaChi() {
 		return diaChi;
